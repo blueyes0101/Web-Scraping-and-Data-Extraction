@@ -147,3 +147,23 @@ search_box = driver.find_element(By.CSS_SELECTOR, "input[placeholder='Search']")
 ```python
 options.binary_location = "/opt/google/chrome/google-chrome"
 ```
+
+
+---
+
+## Project Files
+- **`bot.py`**: Main Python script for the bot.
+- **`requirements.txt`**:
+  ```
+  selenium
+  undetected-chromedriver
+  ```
+- **`README.md`**: Documentation (this file).
+
+---
+
+## Future Enhancements
+1. **Save Data in CSV Format:** Store the results in a `.csv` file for better organization.
+2. **Pagination Handling:** Add functionality to navigate through multiple pages of search results.
+3. **Error Handling:** Implement advanced error handling and logging mechanisms.
+
